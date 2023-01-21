@@ -1,0 +1,12 @@
+kw1
+SELECT gatunek, obraz FROM zwierzeta INNER JOIN gromady ON zwierzeta.Gromady_id=gromady.id WHERE gromady.id=4;
+
+kw2
+SELECT zwierzeta.id, zwierzeta.Gromady_id, zwierzeta.gatunek, zwierzeta.wystepowanie FROM zwierzeta INNER JOIN gromady ON zwierzeta.Gromady_id=gromady.id
+WHERE gromady.id=4 OR gromady.id=5;
+
+kw3
+SELECT zwierzeta.gatunek, odzywianie.id, odzywianie.rodzaj FROM zwierzeta INNER JOIN odzywianie ON zwierzeta.Odzywianie_id=odzywianie.id;
+
+kw3
+ALTER TABLE odzywianie DROP COLUMN informacja;
