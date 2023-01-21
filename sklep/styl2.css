@@ -1,0 +1,59 @@
+* {
+  font-family: Garamond;
+}
+
+body {
+  margin: 0;
+}
+
+.banner-container {
+  width: 100%;
+}
+
+.banner-left {
+  background-color: #00600f;
+  color: white;
+  text-align: center;
+  width: 75%;
+  height: 90px;
+  float: left;
+}
+
+.banner-right {
+  background-color: #00600f;
+  color: white;
+  width: 25%;
+  height: 90px;
+  float: left;
+}
+
+.main-container {
+  background-color: #c8e6c9;
+  color: white;
+  width: 100%;
+  overflow: scroll;
+}
+
+.footer {
+  background-color: #00600f;
+  color: white;
+}
+
+h5 {
+  background-color: #00600f;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  text-align: right;
+}
+
+.main-div {
+  margin: 10px;
+  border: solid 1px #00600f;
+  width: 300px;
+  float: left;
+}
