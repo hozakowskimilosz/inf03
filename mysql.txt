@@ -1,0 +1,5 @@
+GRANT SELECT, INSERT, UPDATE ON baza_danych.* TO 'nowy_uzytkownik'@'localhost' IDENTIFIED BY 'haslo';
+
+SELECT nazwa, IF(styl_zycia = 1, 'drapieżnik', 'roslinożerca') FROM ryby
+
+DATEDIFF(‘2022-01-01’, ‘2021-01-01’, DAY) zwróci 365
