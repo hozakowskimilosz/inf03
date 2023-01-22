@@ -4,4 +4,6 @@ SELECT INSERT UPDATE DELETE CREATE DROP INDEX ALTER GRANT
 
 SELECT nazwa, IF(styl_zycia = 1, 'drapieżnik', 'roslinożerca') FROM ryby
 
+ALTER TABLE dane ADD COLUMN stanowisko varchar(64);
+
 DATEDIFF(‘2022-01-01’, ‘2021-01-01’, DAY) zwróci 365
