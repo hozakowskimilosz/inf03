@@ -1,0 +1,15 @@
+1)
+
+SELECT haslo FROM uzytkownicy WHERE login LIKE 'Justyna';
+
+2)
+
+SELECT COUNT(id) FROM dane;
+
+3)
+
+SELECT uzytkownicy.login, dane.rok_urodz, dane.przyjaciol, dane.hobby, dane.zdjecie FROM uzytkownicy INNER JOIN dane USING(id);
+
+4)
+
+ALTER TABLE dane ADD COLUMN stanowisko varchar(64);
