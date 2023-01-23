@@ -1,0 +1,27 @@
+1)
+
+SELECT imie, nazwisko, adres, miasto, czyRODO, czyBadania FROM pracownicy WHERE id=2;
+
+2)
+
+SELECT COUNT(*) FROM pracownicy;
+
+3)
+
+SELECT id, imie, nazwisko FROM pracownicy WHERE id=2;
+
+4)
+
+CREATE VIEW pracownik1 AS SELECT pracownicy.id, stanowiska.opis, stanowiska.nazwa FROM pracownicy INNER JOIN stanowiska ON pracownicy.stanowiska_id=stanowiska.id;
+
+5)
+
+CREATE USER 'leon'@'localhost' IDENTIFIED BY 'Leon%Zawodowiec';
+
+6)
+
+GRANT UPDATE, DELETE ON firma.* TO 'leon'@'localhost' IDENTIFIED BY 'Leon%Zawodowiec';
+
+7)
+
+SHOW GRANTS FOR 'leon'@'localhost';
