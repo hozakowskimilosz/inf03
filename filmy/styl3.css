@@ -1,0 +1,79 @@
+html,
+body {
+  font-family: Verdana;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-left {
+  background-color: #29434e;
+  color: white;
+  text-align: center;
+  width: 70%;
+  height: 70px;
+  float: left;
+}
+
+.banner-right {
+  background-color: #29434e;
+  color: white;
+  width: 30%;
+  height: 70px;
+  float: left;
+}
+
+.container {
+  width: 100%;
+}
+
+.reccomendations,
+.fantastic {
+  background-color: #b0bec5;
+  height: 320px;
+  overflow: auto;
+  width: 100%;
+  float: left;
+}
+
+.footer {
+  background-color: #29434e;
+  color: white;
+}
+
+.movie {
+  padding: 5px;
+  width: 226px;
+  height: 280px;
+  float: left;
+}
+
+h3 {
+  background-color: #546e7a;
+  color: white;
+  margin: 0;
+}
+
+h4 {
+  text-align: center;
+  margin: 0;
+}
+
+/* 
+Domyślne dla całej strony: krój czcionki Verdana
+‒ Dla banera lewego: kolor tła #29434E, biały kolor czcionki, wyrównanie tekstu do środka,
+szerokość 70%, wysokość 70 px
+‒ Dla banera prawego: kolor tła #29434E, biały kolor czcionki, szerokość 30%, wysokość 70 px
+‒ Dla obu bloków list: kolor tła #B0BEC5, wysokość 320 px, paski przesuwania (scroll)
+‒ Dla stopki: kolor tła #29434E, biały kolor czcionki
+‒ Dla bloku filmu generowanego przez skrypt 1 lub 2: marginesy wewnętrzne 5 px, szerokość 226px,
+wysokość 280px
+‒ Dla selektora nagłówka trzeciego stopnia: kolor tła #546E7A, biały kolor czcionki, marginesy
+zewnętrzne 0 px
+‒ Dla selektora nagłówka czwartego stopnia: wyrównanie tekstu do środka, marginesy zewnętrzne
+0 px */
