@@ -1,0 +1,27 @@
+1)
+
+SELECT id, nazwa, opis, zdjecie FROM produkty WHERE id=18 OR id=22 OR id=23 OR id=25;
+
+2)
+
+SELECT rodzaje.nazwa, COUNT(produkty.nazwa) FROM rodzaje INNER JOIN produkty ON rodzaje.id=produkty.Rodzaje_id GROUP BY rodzaje.nazwa;
+
+3)
+
+SELECT produkty.nazwa, rodzaje.nazwa FROM produkty INNER JOIN rodzaje ON produkty.Rodzaje_id=rodzaje.id WHERE opis LIKE '%Leia%';
+
+4)
+
+DELETE FROM produkty WHERE id=15;
+
+5)
+
+CREATE USER 'Omar'@'%' IDENTIFIED BY 'qwerty';
+
+6)
+
+GRANT DELETE, ALTER, INSERT ON dane.produkty TO 'Omar'@'%';
+
+7)
+
+CREATE VIEW Filmy AS SELECT rodzaje.nazwa, COUNT(produkty.Rodzaje_id) AS 'Liczba' FROM rodzaje INNER JOIN produkty ON rodzaje.id=produkty.Rodzaje_id GROUP BY rodzaje.nazwa;

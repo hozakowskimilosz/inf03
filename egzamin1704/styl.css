@@ -1,0 +1,124 @@
+html, body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner-left, .banner-right {
+    background-color: #29434e;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    float: left;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reccomendations, .movies {
+    background-color: #b0bec5;
+    height: 330px;
+    overflow: auto;
+    margin-top: 30px;
+    width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    box-shadow: 15px 15px 20px rgb(119, 146, 236);
+}
+
+.footer {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer div {
+    background-color: #29434e;
+    color: white;
+    height: 70px;
+    padding-left: 1%;
+    float: left;
+}
+
+.footer-left, .footer-mid {
+    padding-top: 15px;
+}
+
+.footer-left, .footer-right {
+    width: 30%;
+}
+
+.footer-mid {
+    width: 40%;
+    text-align: center;
+}
+
+.reccomendations img {
+    border-radius: 50px;
+}
+
+.movies-container {
+    display: flex;
+    gap: 30px;
+}
+
+.movie {
+    width: 25%;
+    height: 300px;
+    text-align: center;
+}
+
+h3 {
+    background-color: #546e7a;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+form {
+    margin: 5px;
+}
+
+form:hover {
+    background-color: rgb(119, 146, 236);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table, td {
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+hr {
+    width: 70%;
+}
+
+ul {
+    list-style: square;
+}
